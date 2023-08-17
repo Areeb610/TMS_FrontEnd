@@ -1,0 +1,54 @@
+h1{
+    color: red;
+
+
+}
+.ticket-count-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  /* Style for the ticket details section */
+.ticket-details-section {
+    margin-top: 20px;
+}
+
+/* Style for the ticket table */
+.ticket-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+/* Style for table headers */
+.ticket-table th {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Add border to table rows */
+.ticket-table tbody tr {
+    border-bottom: 1px solid #000000;
+}
+
+/* Add border to table headers */
+.ticket-table thead th {
+    border-bottom: 2px solid #007bff;
+}
+/* Add border to alternating columns in the table body */
+.ticket-table tbody tr td:nth-child(odd) {
+    border-right: 1px solid #000000;
+}
+
+/* Add border to alternating columns in the table head */
+.ticket-table thead th:nth-child(odd) {
+    border-right: 2px solid #000000;
+}
+
+  
+  

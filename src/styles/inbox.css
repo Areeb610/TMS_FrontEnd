@@ -1,0 +1,27 @@
+.ticket-inbox {
+    margin: 20px;
+  }
+  
+  .ticket-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .ticket {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .ticket-title {
+    font-weight: bold;
+  }
+  
+  .ticket-status {
+    flex: 1;
+    margin-left: 10px;
+  }
+  
