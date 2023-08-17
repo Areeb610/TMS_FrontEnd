@@ -102,6 +102,7 @@ function UpdateTicketPage() {
           <TableRow>
             <TableCell>Actions</TableCell>
             <TableCell>Title</TableCell>
+            <TableCell>Description</TableCell>
             <TableCell>Initiated By</TableCell>
             <TableCell>Forwarded To</TableCell>
             <TableCell>Status</TableCell>
@@ -116,6 +117,7 @@ function UpdateTicketPage() {
                 </Button>
               </TableCell>
               <TableCell>{ticket.title}</TableCell>
+              <TableCell>{ticket.description}</TableCell>
               <TableCell>{ticket.initiated_by}</TableCell>
               <TableCell>{ticket.Forwarded_To}</TableCell>
               <TableCell>{ticket.status}</TableCell>
